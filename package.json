@@ -1,0 +1,19 @@
+{
+  "name": "starter-rest-api",
+  "version": "1.0.0",
+  "description": "CLI for generating production-ready backend starter projects with different frameworks, testing, validation, and API documentation.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/cli.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eujoao-maciel/starter-rest-api.git"
+  },
+  "keywords": [],
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/eujoao-maciel/starter-rest-api/issues"
+  },
+  "homepage": "https://github.com/eujoao-maciel/starter-rest-api#readme"
+}
