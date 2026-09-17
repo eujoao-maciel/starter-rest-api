@@ -2,9 +2,18 @@ import { createInterface } from "node:readline/promises";
 import { stdin as input, stdout as output } from "node:process";
 
 const stacks = {
-  1: "Express",
-  2: "Fastify",
-  3: "FastAPI",
+  1: {
+    name: "Express",
+    template: "starter-express",
+  },
+  2: {
+    name: "Fastify",
+    template: "starter-fastify",
+  },
+  3: {
+    name: "FastAPI",
+    template: "starter-fastapi",
+  },
 };
 
 export const chooseStack = async () => {
