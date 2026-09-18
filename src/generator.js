@@ -11,7 +11,7 @@ const templates = {
     "starter-fastapi": "https://github.com/eujoao-maciel/starter-fastapi.git",
 }
 
-export const generateProject = async (stack) => {
+export const generateProject = async (stack, projectName) => {
     const repository = templates[stack.template]
 
     if (!repository) {
@@ -25,7 +25,7 @@ export const generateProject = async (stack) => {
         "--depth",
         "1",
         repository,
-        "generated-project",
+        projectName,
     ])
 
     console.log("Template baixado com sucesso!")
