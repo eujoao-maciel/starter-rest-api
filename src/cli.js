@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 import { chooseStack } from "./prompts.js";
 import { defineProjectName } from "./prompts.js";
 import { generateProject } from "./generator.js"
